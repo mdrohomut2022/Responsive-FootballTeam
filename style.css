@@ -103,6 +103,13 @@ player-gallery section start here
     height: 256px;
     border-radius: 5px;
 }
+
+.player-name{
+    padding: 15px;
+}
+.player-info{
+    padding: 15px;
+}
 /* --------------------------------
 player-gallery section End here 
 ----------------------------------*/
@@ -122,6 +129,7 @@ footer section start here
    margin-left: 475px;
    margin-right: 481px;
    margin-bottom: 20px;
+  
 }
 .social{
     margin-left: 45%;
