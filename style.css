@@ -13,7 +13,9 @@ body{
     padding: 0;
 }
 
-
+/* ----------------------
+home section start here 
+------------------------*/
 .home-banner{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
@@ -57,22 +59,46 @@ body{
   
 }
 
+/* ----------------------
+home section End here 
+------------------------*/
+
+/* --------------------------------
+player-gallery section start here 
+----------------------------------*/
+
 .container{
-    background-color:#FFFFFF;
+    
     margin-top: -180px;
+    background-color:#FFFFFF;
 }
+.container-2{
+    background-color:#FFFFFF;
+    margin-top: 20px;
+}
+
 .player-gallery{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
     
 }
 
 .player{
     width: 330px;
-    height: 474px; 
+    height: 450px; 
+    border: 1px solid rgb(255, 255, 255);
+    margin: 20px;
+    box-shadow: rgba(15, 15, 27, 0.2) 0px 7px 29px 0px;
+    background-color:#FFFFFF;
 }
 .player-img img{
-    width: 300px;
+    width: 330px;
     height: 256px;
+    border-radius: 5px;
 }
+/* --------------------------------
+player-gallery section End here 
+----------------------------------*/
