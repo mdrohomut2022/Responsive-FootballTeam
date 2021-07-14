@@ -49,6 +49,9 @@ home section start here
     background-color: #E02C6D;
     color: #FFFFFF;
 }
+.btn-type a{
+    text-decoration: none;
+}
 .home-img img{
   
     width: 556.01px;
@@ -103,3 +106,45 @@ player-gallery section start here
 /* --------------------------------
 player-gallery section End here 
 ----------------------------------*/
+
+
+/* --------------------------------
+footer section start here 
+----------------------------------*/
+
+.footer-section{
+    margin-top: 158px;
+    background-color: #FFFFFF;
+}
+.footer-img img{
+    width: 483.87px;
+    height: 110px;
+   margin-left: 475px;
+   margin-right: 481px;
+   margin-bottom: 20px;
+}
+.social{
+    margin-left: 45%;
+    margin-bottom: 1%;
+   
+}
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+.fab{
+    font-size: 30px;
+    
+}
+.social-para{
+   
+    margin-left: 600px;
+    margin-right: 481px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
