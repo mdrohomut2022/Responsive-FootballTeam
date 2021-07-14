@@ -4,7 +4,7 @@ body{
 
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
-
+    
 }
 
 *{
@@ -59,8 +59,17 @@ home section start here
     margin-top: 153px;
     margin-right: 140px;
     margin-bottom: 86px;
+    transition: width 10s,height 10s , transform 0.5s;
   
 }
+.home-img img:hover{
+
+    width: 450px;
+    height: 300px;
+    transform: rotate(45deg);
+        
+}
+
 
 /* ----------------------
 home section End here 
@@ -88,6 +97,7 @@ player-gallery section start here
     margin-left: 120px;
     margin-right: 120px;
     
+    
 }
 
 .player{
@@ -97,6 +107,7 @@ player-gallery section start here
     margin: 20px;
     box-shadow: rgba(15, 15, 27, 0.2) 0px 7px 29px 0px;
     background-color:#FFFFFF;
+    
 }
 .player-img img{
     width: 310px;
@@ -126,10 +137,11 @@ timetable section start here
     grid-template-columns: repeat(2,1fr);
     margin-top: 70px;
 }
-.copa-img img{
+.copa-img1 img{
     width: 530px;
-    height: 345px;
-    margin-right: 100px;
+    height: 330px;
+    margin-top: 25px;
+    margin-right: 120px;
     margin-left: 40px;
     border-radius: 25px;
 }
@@ -142,7 +154,7 @@ table{
     border-radius: 10px;
     color: white;
    
-    height: 270px;
+    height: 250px;
 }
 th{
     font-size: 25px;
@@ -181,7 +193,7 @@ Ticket order section start here
 }
 .ticket-img img{
     width: 500px;
-    height: 415px;
+    height: 420px;
     margin-left: 140px;
     border-radius: 10px;
 
@@ -259,12 +271,7 @@ media querry sction start here
 -----------------------------------*/
 @media only screen and(max-width:688px) {
 
-    .home{
-        width: 100%;
-    }
-    .home-banner{
-        background-color: tomato;
-        grid-template-columns: repeat(1,1fr);
-    }
+    
+    
     
 }
