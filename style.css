@@ -116,6 +116,100 @@ player-gallery section End here
 ----------------------------------*/
 
 
+/* -------------------------------
+timetable section start here 
+----------------------------------*/
+
+
+.copa-TimeTable{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 70px;
+}
+.copa-img img{
+    width: 530px;
+    height: 345px;
+    margin-right: 100px;
+    margin-left: 40px;
+    border-radius: 25px;
+}
+
+table{
+    margin-left: 140px;
+    border-collapse: collapse;
+    border: 1px solid silver;
+    background-color: #161A6C;
+    border-radius: 10px;
+    color: white;
+   
+    height: 270px;
+}
+th{
+    font-size: 25px;
+    font-weight: 700;
+
+}
+td{
+    padding: 15px;
+
+  }
+
+ /* -------------------------------
+timetable section start here 
+----------------------------------*/
+
+/* --------------------------------
+Ticket order section start here
+-----------------------------------*/
+
+.ticket-order h1{
+
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.ticket-confirm{
+
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   margin-top: 80px;
+
+
+}
+.ticket-img img{
+    width: 500px;
+    height: 415px;
+    margin-left: 140px;
+    border-radius: 10px;
+
+}
+.ticket-info{
+
+    margin-right: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2F4C47;
+    color: white;
+
+}
+
+.btn{
+  
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+
+
+/* --------------------------------
+Ticket order section End here
+-----------------------------------*/
+
+
 /* --------------------------------
 footer section start here 
 ----------------------------------*/
@@ -156,4 +250,21 @@ footer section start here
     font-weight: 400;
 }
 
+/* --------------------------------
+footer section End here 
+----------------------------------*/
 
+/* --------------------------------
+media querry sction start here 
+-----------------------------------*/
+@media only screen and(max-width:688px) {
+
+    .home{
+        width: 100%;
+    }
+    .home-banner{
+        background-color: tomato;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
