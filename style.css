@@ -99,9 +99,10 @@ player-gallery section start here
     background-color:#FFFFFF;
 }
 .player-img img{
-    width: 330px;
-    height: 256px;
+    width: 310px;
+    height: 206px;
     border-radius: 5px;
+    padding: 10px;
 }
 
 .player-name{
